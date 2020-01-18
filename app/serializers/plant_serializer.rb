@@ -1,4 +1,4 @@
 class PlantSerializer < ActiveModel::Serializer
-  attributes :id, :name, :description, :loves, :care
+  attributes :id, :name, :description, :loves, :care, :image
 
 end
