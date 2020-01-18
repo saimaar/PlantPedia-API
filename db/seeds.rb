@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Family.destroy_all
+Plant.destroy_all
+
+
 family1 = Family.create(name: "Monstera")
 
 plant1 = Plant.create(name: "Monstera Deliciosa",
@@ -101,7 +105,7 @@ plant10 = Plant.create(name: "Pachira Aquatica",
 )
 
 
-# 
+#
 # family6 = Family.create(name: "")
 #
 # plant11 = Plant.create(name: "",
