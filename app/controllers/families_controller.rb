@@ -17,11 +17,13 @@ class FamiliesController < ApplicationController
 
   def show
     @family = Family.find(params[:id])
+    render json: @family
   end
 
   def update
     @family = Family.find(params[:id])
     @family.update(family_params)
+    render json: @family
   end
 
   def destroy

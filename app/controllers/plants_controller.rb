@@ -16,11 +16,13 @@ class PlantsController < ApplicationController
 
   def show
     @plant = Plant.find(params[:id])
+    render json: @plant
   end
 
   def update
     @plant = Plant.find(params[:id])
     @plant.update(plant_params)
+    render json: @plant
   end
 
   def destroy
