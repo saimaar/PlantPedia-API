@@ -38,7 +38,7 @@ private
 
 def plant_params
 
-params.permit(:name, :image, :description, :loves, :care)
+params.permit(:name, :image, :description, :loves, :care, :family_id)
 
 end
 
