@@ -105,103 +105,41 @@ plant10 = Plant.create(name: "Pachira Aquatica",
 )
 
 
-#
-# family6 = Family.create(name: "")
-#
-# plant11 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-# plant12 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-#
-#
-# family7 = Family.create(name: "")
-#
-# plant13 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-# plant14 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-#
-#
-# family8 = Family.create(name: "")
-#
-# plant15 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-# plant16 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-#
-#
-#
-# family9 = Family.create(name: "")
-#
-# plant17 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-# plant18 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-#
-#
-#
-# family10 = Family.create(name: "")
-#
-# plant19 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
-#
-# plant20 = Plant.create(name: "",
-#   image: "",
-#   description: "",
-#   loves: 2,
-#   care: "" ,
-#   family:
-# )
+
+family6 = Family.create(name: "Philodendron")
+
+plant11 = Plant.create(name: "Philodendron Cordatum",
+  image: "https://cdn.shopify.com/s/files/1/0013/3529/6118/products/Nursery-Pot-8_Philodendron-Cordatum-8.jpg?v=1544495098",
+  description: "Philodendron cordatum, is a species rarely found or offered as a houseplant. It is native to a small region in Southeastern coastal Brazil, not far from Rio de Janeiro and São Paulo. It is an epiphytic and epilithic species of Philodendron",
+  loves: 2,
+  care: "Philodendron Cordatum should be allowed to dry down completely in low to medium light but not to point of wilting. In bright light, allow soil to dry down at least 1/2 to 3/4 of its depth." ,
+  family: family6
+)
+
+plant12 = Plant.create(name: "Philodendron xanadu",
+  image: "https://images.immediate.co.uk/production/volatile/sites/10/2018/08/f0f96e6e-e7a5-4ba5-90e3-bf5382271528-7f08bdb.jpg?quality=90&resize=960%2C640",
+  description: "Philodendron xanadu is a plant that belongs to the family Araceae and subgenus Meconostigma, one of three subgenera within the genus Philodendron.",
+  loves: 2,
+  care: "Light: Best in moderate to bright, indirect light. Avoid direct sunlight as this may cause the leaves to fade. Water: Water well then allow the top half of the soil to dry out before re-watering." ,
+  family: family6
+)
+
+
+
+family7 = Family.create(name: "Epipremnum")
+
+plant13 = Plant.create(name: "Marble Queen Pothos",
+  image: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_pothos-marble-queen_featured_1024x.jpg?v=1576176353",
+  description: "Epipremnum aureum, or Pothos, is a tropical aroid vine in the family Araceae and native to French Polynesia. Like other closely-related aroids, this plant's leaves will change in shape with age (similar to a Monstera). The leaves can be found in the wild sprawled out along the ground and climbing up trees. Considered to be in the monstera subfamily Monsteroideae, these plants can truly grow monsterous! In mature plants, the leaves can grow to be longer than 3 feet long.",
+  loves: 2,
+  care: "Water every 1-2 weeks, allowing soil to dry out between waterings. Increase frequency with increased light." ,
+  family: family7
+)
+
+plant14 = Plant.create(name: "hunter's robe",
+  image: "https://media.istockphoto.com/photos/epipremnum-aureum-plant-in-a-gardencommon-names-including-golden-picture-id1172130336?k=6&m=1172130336&s=612x612&w=0&h=eVT8sAiyQgDdhCL16_vTs8eLrrsKFV4sQW9yieetQnY=",
+  description: "Commonly grown as an indoor potted plant and as an ornamental outdoors in warm climates. Heart-shaped or oval dark green leaves with yellow or white splotches, and slender stems. Grows as a vine.",
+  loves: 2,
+  care: "Best grown in warm spot protected from droughts. Keep moist but not wet and apply liquid fertilizer during the growing season for lush new growth" ,
+  family: family7
+)
