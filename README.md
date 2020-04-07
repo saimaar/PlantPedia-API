@@ -34,7 +34,7 @@ This web app is built with the following:
 - Active Model Serializers [~> 0.10.0] - Serializing API routes to JSON
 - PostgreSQL [>= 0.18, < 2.0] - Database
 
-**Front End**
+**[Front End](https://github.com/saimaar/PlantPedia-FrontEnd)**
 - Vanilla JavaScript [ES6]
 - Custom CSS3 styling 
 
